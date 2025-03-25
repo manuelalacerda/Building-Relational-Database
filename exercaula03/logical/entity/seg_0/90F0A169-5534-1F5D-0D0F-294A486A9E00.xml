@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="90F0A169-5534-1F5D-0D0F-294A486A9E00" name="T_VB_PEDIDO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-25 11:05:06 UTC</createdTime>
+<ownerDesignName>exercaula03</ownerDesignName>
+<engineerTo>
+<item key="15CF6449-8499-47BE-8333-447BDACB82D3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="num_do_pedido" id="EB215AF1-9AE1-0551-6545-B0D83D29A834">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-25 15:33:23 UTC</createdTime>
+<ownerDesignName>exercaula03</ownerDesignName>
+<engineerTo>
+<item key="15CF6449-8499-47BE-8333-447BDACB82D3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
