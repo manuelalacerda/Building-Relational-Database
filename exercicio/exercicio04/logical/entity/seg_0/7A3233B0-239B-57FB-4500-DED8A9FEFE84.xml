@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7A3233B0-239B-57FB-4500-DED8A9FEFE84" name="T_VB_MESA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-01 12:38:10 UTC</createdTime>
+<ownerDesignName>exercicio04</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_mesa" id="5E0501E3-4A68-BEDD-703C-27A88F011B37">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-01 12:44:52 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá recebera chave primaria do codigo da mesa do estabelecimentoé gerado automaticamente , é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá recebera chave primaria do codigo da mesa do estabelecimentoé gerado automaticamente , é obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Esse atributo irá recebera chave primaria do codigo da mesa do estabelecimentoé gerado automaticamente , é obrigatório.]]></notes>
+<ownerDesignName>exercicio04</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qntd_cadeira" id="3EE58948-DA96-1B17-832B-CA378A2CEC03">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-01 12:52:11 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá recebero numero de cadeira de cada  mesa do estabelecimento , é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá recebero numero de cadeira de cada  mesa do estabelecimento , é obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Esse atributo irá recebero numero de cadeira de cada  mesa do estabelecimento , é obrigatório.]]></notes>
+<ownerDesignName>exercicio04</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estabelecimento" id="417458F3-C35F-505A-D968-B44BE8F9FDF2">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-01 12:55:21 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do estabelecimento. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>92FFFE7F-3F35-2667-6FE4-F0A3354B705B</generatorID>
+<ownerDesignName>exercicio04</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<referedAttribute>396F4828-9347-DCCE-97BA-360A37611FDF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6950F754-D81C-8C91-F313-BA071EB05788" name="T_VB_MESA PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-01 12:45:57 UTC</createdTime>
+<ownerDesignName>exercicio04</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5E0501E3-4A68-BEDD-703C-27A88F011B37</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

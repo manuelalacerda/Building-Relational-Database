@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BF342FEB-D692-C25D-3841-86420E82CC5F" name="TB_VB_ENDERECO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-01 12:09:45 UTC</createdTime>
+<ownerDesignName>exercicio04</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="logadouro_endereco" id="0A01A7B4-F1C2-A8A4-55FD-1EAC37B96224">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-01 12:10:11 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o logadouro rua, avenida, alameda. é obrigatorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o logadouro rua, avenida, alameda. é obrigatorio.]]></commentInRDBMS>
+<notes><![CDATA[Esse atributo irá receber o logadouro rua, avenida, alameda. é obrigatorio.]]></notes>
+<ownerDesignName>exercicio04</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep_endereco" id="C7B8C003-B30F-B1F3-00C3-825074A3B893">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-01 12:23:10 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber cep do estabelecimento, esse atributo é obrigatorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber cep do estabelecimento, esse atributo é obrigatorio.]]></commentInRDBMS>
+<notes><![CDATA[Esse atributo irá receber cep do estabelecimento, esse atributo è obrigatorio.]]></notes>
+<ownerDesignName>exercicio04</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_bairro" id="B9F14A4D-B912-1A00-FAD3-E4319329F0D3">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-01 12:26:28 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber nome do bairro do estabelecimento, esse atributo é obrigatorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber nome do bairro do estabelecimento, esse atributo é obrigatorio.]]></commentInRDBMS>
+<notes><![CDATA[Esse atributo irá receber nome do bairro do estabelecimento, esse atributo é obrigatorio.]]></notes>
+<ownerDesignName>exercicio04</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_cidade" id="3C238625-3E2A-EFB1-B36B-C56C2EE67294">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-01 12:29:45 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome da cidade  do estabelecimento, esse atributo é obrigatorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome da cidade  do estabelecimento, esse atributo é obrigatorio.]]></commentInRDBMS>
+<notes><![CDATA[Esse atributo irá receber o nome da cidade  do estabelecimento, esse atributo é obrigatorio.]]></notes>
+<ownerDesignName>exercicio04</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>18,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complemeto_endereço" id="DE7B5778-A2A3-4589-B7F9-D370641A854D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-01 12:30:51 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o complemento  do endereço  do estabelecimento, esse atributo é obrigatorio.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o complemento  do endereço  do estabelecimento, esse atributo é obrigatorio.]]></commentInRDBMS>
+<notes><![CDATA[Esse atributo irá receber o complemento  do endereço  do estabelecimento, esse atributo é obrigatorio.]]></notes>
+<ownerDesignName>exercicio04</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_end_estabelecimento" id="041C8BCA-50FE-575A-28C9-E4B347256E67">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-01 12:32:23 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do endereco do estabelecimento. Esse número é sequencial e gerado automaticamente pelo sistema, é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a chave primária do endereco do estabelecimento. Esse número é sequencial e gerado automaticamente pelo sistema, é obrigatório.]]></commentInRDBMS>
+<notes><![CDATA[Esse atributo irá receber a chave primária do endereco do estabelecimento. Esse número é sequencial e gerado automaticamente pelo sistema, é obrigatório.]]></notes>
+<ownerDesignName>exercicio04</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estabelecimento" id="0D0DCEFC-9F2B-11A9-AE8E-2755670C2F2F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-01 12:37:10 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a chave primária do estabelecimento. Esse número é sequencial e gerado automaticamente pelo sistema. Seu conteúdo é obrigatório.]]></comment>
+<generatorID>724863D0-742B-8127-D6C7-38E98BAB1E8A</generatorID>
+<ownerDesignName>exercicio04</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<referedAttribute>396F4828-9347-DCCE-97BA-360A37611FDF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="394DEAE1-9511-6DFD-AE46-EDEF9BF42A9B" name="TB_VB_ENDERECO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-01 12:33:09 UTC</createdTime>
+<ownerDesignName>exercicio04</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>041C8BCA-50FE-575A-28C9-E4B347256E67</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_VB_ESTABELECIMENTO_MESA" directorySegmentName="seg_0" id="92FFFE7F-3F35-2667-6FE4-F0A3354B705B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-01 12:55:21 UTC</createdTime>
+<ownerDesignName>exercicio04</ownerDesignName>
+<engineerTo>
+<item key="3B900023-A8F4-1D43-7275-0ABB8837388D" value="true"/>
+</engineerTo>
+<sourcePk>87E4DD7C-942D-39FF-6863-49091F0A61C3</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8E0AFA2B-0FA3-1EFA-CFE8-78CF1BB8472F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7A3233B0-239B-57FB-4500-DED8A9FEFE84</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
