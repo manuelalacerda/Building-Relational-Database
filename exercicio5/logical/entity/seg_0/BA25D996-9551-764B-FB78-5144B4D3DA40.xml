@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA25D996-9551-764B-FB78-5144B4D3DA40" name="T_CLIENTE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:33:20 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="739DAA69-038D-727B-3564-5F73B4C70C8C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="92F5422B-4F02-3A3D-2B8B-0FB3F86E56ED">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:33:35 UTC</createdTime>
+<comment><![CDATA[ira receber a chave primaria do cliente]]></comment>
+<commentInRDBMS><![CDATA[ira receber a chave primaria do cliente]]></commentInRDBMS>
+<notes><![CDATA[ira receber a chave primaria do cliente]]></notes>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="739DAA69-038D-727B-3564-5F73B4C70C8C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D8BAF491-8A72-69F6-70AC-7B73951B8E00" name="T_CLIENTE PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:33:48 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="739DAA69-038D-727B-3564-5F73B4C70C8C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>92F5422B-4F02-3A3D-2B8B-0FB3F86E56ED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

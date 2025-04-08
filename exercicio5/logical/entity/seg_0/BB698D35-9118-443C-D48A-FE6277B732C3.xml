@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB698D35-9118-443C-D48A-FE6277B732C3" name="T_PACIENTE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:28:40 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="739DAA69-038D-727B-3564-5F73B4C70C8C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_paciente" id="50F0BECD-C05F-9299-CA14-674EC094AA8B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:29:00 UTC</createdTime>
+<comment><![CDATA[ira receber a chave primaria do paciente]]></comment>
+<commentInRDBMS><![CDATA[ira receber a chave primaria do paciente]]></commentInRDBMS>
+<notes><![CDATA[ira receber a chave primaria do paciente]]></notes>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="739DAA69-038D-727B-3564-5F73B4C70C8C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A68BE5D5-F469-B364-FEDE-7811DDB4FF3C" name="T_PACIENTE PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:29:13 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="739DAA69-038D-727B-3564-5F73B4C70C8C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>50F0BECD-C05F-9299-CA14-674EC094AA8B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

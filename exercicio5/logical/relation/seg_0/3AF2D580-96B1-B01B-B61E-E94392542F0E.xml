@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_id_medico" directorySegmentName="seg_0" id="3AF2D580-96B1-B01B-B61E-E94392542F0E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:49:22 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="739DAA69-038D-727B-3564-5F73B4C70C8C" value="true"/>
+</engineerTo>
+<sourcePk>0882C6AC-7E14-6795-CB99-05527D1F5EA4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9C647596-F8C7-5E4C-78A4-6DDA5451051A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8ED9434F-9611-4F82-4E2A-7B0BAFDD428B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
