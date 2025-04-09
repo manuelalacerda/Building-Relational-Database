@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_id_pedido" directorySegmentName="seg_0" id="C7472F9F-0F4E-744B-916F-E9CA2E55A72C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:41:34 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="739DAA69-038D-727B-3564-5F73B4C70C8C" value="true"/>
+</engineerTo>
+<sourcePk>D8BAF491-8A72-69F6-70AC-7B73951B8E00</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BA25D996-9551-764B-FB78-5144B4D3DA40</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0D849ADF-C099-CB84-747D-ACF9FBA7CAB0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

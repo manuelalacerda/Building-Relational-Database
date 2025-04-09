@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FFD4CADC-A56B-07AD-DE17-0271723CBA1D" name="T_DEPARTAMENTO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:38:27 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="739DAA69-038D-727B-3564-5F73B4C70C8C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_departamento" id="05D9AF9B-BCA1-B716-E342-8D0C8D3A20BE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:38:49 UTC</createdTime>
+<comment><![CDATA[ira receber a chave primaria do departamento]]></comment>
+<commentInRDBMS><![CDATA[ira receber a chave primaria do departamento]]></commentInRDBMS>
+<notes><![CDATA[ira receber a chave primaria do departamento]]></notes>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="739DAA69-038D-727B-3564-5F73B4C70C8C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_funcionario" id="637AF9AA-F955-4A59-40A8-352852560528">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-09 14:55:57 UTC</createdTime>
+<comment><![CDATA[ira receber a chave primaria do funcionario]]></comment>
+<generatorID>BFF8E651-AC15-ED8E-2219-CC53CCCC2A23</generatorID>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="739DAA69-038D-727B-3564-5F73B4C70C8C" value="true"/>
+</engineerTo>
+<referedAttribute>340E8232-F852-A9A2-A67D-17BC589B86E0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="16E33F1A-3DAF-B928-2D4D-690F944B756E" name="T_DEPARTAMENTO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:39:04 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="739DAA69-038D-727B-3564-5F73B4C70C8C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>05D9AF9B-BCA1-B716-E342-8D0C8D3A20BE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

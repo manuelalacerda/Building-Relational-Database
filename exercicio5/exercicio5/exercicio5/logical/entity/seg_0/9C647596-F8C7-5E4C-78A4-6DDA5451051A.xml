@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C647596-F8C7-5E4C-78A4-6DDA5451051A" name="T_MEDICO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:31:52 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="739DAA69-038D-727B-3564-5F73B4C70C8C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_medico" id="625789E6-CF1F-5FB5-7E53-95F8FC680DA1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:32:05 UTC</createdTime>
+<comment><![CDATA[ira receber a chave primaria do medico]]></comment>
+<commentInRDBMS><![CDATA[ira receber a chave primaria do medico]]></commentInRDBMS>
+<notes><![CDATA[ira receber a chave primaria do medico]]></notes>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="739DAA69-038D-727B-3564-5F73B4C70C8C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0882C6AC-7E14-6795-CB99-05527D1F5EA4" name="T_MEDICO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:32:22 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="739DAA69-038D-727B-3564-5F73B4C70C8C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>625789E6-CF1F-5FB5-7E53-95F8FC680DA1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

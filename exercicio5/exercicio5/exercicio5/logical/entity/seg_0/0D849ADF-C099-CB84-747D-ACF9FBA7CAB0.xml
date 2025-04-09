@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0D849ADF-C099-CB84-747D-ACF9FBA7CAB0" name="T_PEDIDO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:27:51 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="739DAA69-038D-727B-3564-5F73B4C70C8C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pedido" id="481BBD02-321C-466C-CBA2-8BF2BAADBC3C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:28:04 UTC</createdTime>
+<comment><![CDATA[ira receber a chave primaria do pedido]]></comment>
+<commentInRDBMS><![CDATA[ira receber a chave primaria do pedido]]></commentInRDBMS>
+<notes><![CDATA[ira receber a chave primaria do pedido]]></notes>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="739DAA69-038D-727B-3564-5F73B4C70C8C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="6B7B9D21-1E9B-F2EB-BB7F-5BA97481DC6D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:41:34 UTC</createdTime>
+<comment><![CDATA[ira receber a chave primaria do cliente]]></comment>
+<generatorID>C7472F9F-0F4E-744B-916F-E9CA2E55A72C</generatorID>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="739DAA69-038D-727B-3564-5F73B4C70C8C" value="true"/>
+</engineerTo>
+<referedAttribute>92F5422B-4F02-3A3D-2B8B-0FB3F86E56ED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A7FD5BCA-F185-929A-69ED-E3CDA62DBC4E" name="T_PEDIDO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-08 12:28:21 UTC</createdTime>
+<ownerDesignName>exercicio5</ownerDesignName>
+<engineerTo>
+<item key="739DAA69-038D-727B-3564-5F73B4C70C8C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>481BBD02-321C-466C-CBA2-8BF2BAADBC3C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
