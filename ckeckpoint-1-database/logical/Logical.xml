@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="858DD072-591A-1763-2252-9EF98FBC8127" mainViewID="2403D638-7C01-923A-197F-D3DAA62735FB">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 11:20:49 UTC</createdTime>
+<ownerDesignName>ckeckpoint-1-database</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
