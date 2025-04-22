@@ -1,0 +1,78 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.2.14">
+  <diagram name="Page-1" id="PTPU-odJMJyNctKxedCr">
+    <mxGraphModel dx="1197" dy="1135" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BrIAUmlE33K94-7wU7g4-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BrIAUmlE33K94-7wU7g4-1" target="BrIAUmlE33K94-7wU7g4-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BrIAUmlE33K94-7wU7g4-1" value="Bem vindo ao assistente de agendamente de consulta" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="70" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BrIAUmlE33K94-7wU7g4-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BrIAUmlE33K94-7wU7g4-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BrIAUmlE33K94-7wU7g4-3" value="Como faço um agendamento?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BrIAUmlE33K94-7wU7g4-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BrIAUmlE33K94-7wU7g4-7" target="BrIAUmlE33K94-7wU7g4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BrIAUmlE33K94-7wU7g4-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BrIAUmlE33K94-7wU7g4-7" target="BrIAUmlE33K94-7wU7g4-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BrIAUmlE33K94-7wU7g4-7" value="você tem cadastro?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BrIAUmlE33K94-7wU7g4-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BrIAUmlE33K94-7wU7g4-11" target="BrIAUmlE33K94-7wU7g4-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BrIAUmlE33K94-7wU7g4-11" value="se sim Informe seu nome e cpf." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BrIAUmlE33K94-7wU7g4-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BrIAUmlE33K94-7wU7g4-13" target="BrIAUmlE33K94-7wU7g4-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BrIAUmlE33K94-7wU7g4-13" value="se não faça seu cadastro aqui." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BrIAUmlE33K94-7wU7g4-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BrIAUmlE33K94-7wU7g4-16" target="BrIAUmlE33K94-7wU7g4-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BrIAUmlE33K94-7wU7g4-16" value="Informe seu nome completo, CPF, RG, data de &lt;br&gt;nascimento, sexo, escolaridade, estado civil, grupo &lt;br&gt;sanguíneo, altura, peso, e-mail, telefone nome de Logradouro, Bairro, Cidade, Estado &lt;br/&gt;e CEP." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="338.75" y="370" width="242.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="BrIAUmlE33K94-7wU7g4-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BrIAUmlE33K94-7wU7g4-18" target="BrIAUmlE33K94-7wU7g4-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BrIAUmlE33K94-7wU7g4-18" value="Qual o seu plano?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BrIAUmlE33K94-7wU7g4-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BrIAUmlE33K94-7wU7g4-21" target="BrIAUmlE33K94-7wU7g4-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BrIAUmlE33K94-7wU7g4-21" value="Cadastro concluido." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BrIAUmlE33K94-7wU7g4-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BrIAUmlE33K94-7wU7g4-26" target="BrIAUmlE33K94-7wU7g4-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BrIAUmlE33K94-7wU7g4-26" value="As datas disponiveis são:&lt;div&gt;(Datas)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BrIAUmlE33K94-7wU7g4-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BrIAUmlE33K94-7wU7g4-28" target="BrIAUmlE33K94-7wU7g4-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BrIAUmlE33K94-7wU7g4-28" value="os horarios disponiveis são:&lt;div&gt;(Horarios)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BrIAUmlE33K94-7wU7g4-30" value="sua consulta foi marcada com sucesso.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
