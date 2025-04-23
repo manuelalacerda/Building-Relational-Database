@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="45C410C3-8B77-FA1C-2DC0-4CD04D14BDDA">
-<createdBy>labsfiap</createdBy>
-<createdTime>2025-04-15 11:20:49 UTC</createdTime>
-<ownerDesignName>ckeckpoint-1-database</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</ProcessModel>
