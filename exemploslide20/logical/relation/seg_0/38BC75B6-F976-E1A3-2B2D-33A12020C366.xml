@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_FUNCIONARIO_MEDICO" directorySegmentName="seg_0" id="38BC75B6-F976-E1A3-2B2D-33A12020C366">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 11:31:59 UTC</createdTime>
+<ownerDesignName>exemploslide20</ownerDesignName>
+<engineerTo>
+<item key="11BA9E03-EC11-10C9-753A-C0E836C1D9E8" value="true"/>
+</engineerTo>
+<sourcePk>4BF491AD-CC8B-9873-006D-E5D847A7F1AF</sourcePk>
+<arc>10383575-73F7-8A4B-1023-1C7E24594D23</arc>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>534CFC3A-F3BF-E51F-D8E8-C4373F871692</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>6947421A-9878-823E-8493-70F526B765D4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

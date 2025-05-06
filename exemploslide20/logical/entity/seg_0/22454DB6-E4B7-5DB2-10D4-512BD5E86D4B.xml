@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="22454DB6-E4B7-5DB2-10D4-512BD5E86D4B" name="T_ENGENHEIRO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-07-27 17:38:03 UTC</createdTime>
+<ownerDesignName>exemploslide20</ownerDesignName>
+<engineerTo>
+<item key="11BA9E03-EC11-10C9-753A-C0E836C1D9E8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_funcionario" id="9B118313-CA4A-7946-FE7A-4FBB60045618">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 11:33:31 UTC</createdTime>
+<generatorID>E4E813E8-562D-A94D-2B30-542A9F387D45</generatorID>
+<ownerDesignName>exemploslide20</ownerDesignName>
+<engineerTo>
+<item key="11BA9E03-EC11-10C9-753A-C0E836C1D9E8" value="true"/>
+</engineerTo>
+<referedAttribute>6A61F0DC-838A-9092-3C69-B94773684199</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_crea" id="A52FD849-0DB7-CC2E-4996-13A202E3D437">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2020-07-27 17:38:03 UTC</createdTime>
+<ownerDesignName>exemploslide20</ownerDesignName>
+<engineerTo>
+<item key="11BA9E03-EC11-10C9-753A-C0E836C1D9E8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_registro_crea" id="24A61D97-729C-14A6-03DC-A30A49849C8F">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-05-24 18:02:32 UTC</createdTime>
+<ownerDesignName>exemploslide20</ownerDesignName>
+<engineerTo>
+<item key="11BA9E03-EC11-10C9-753A-C0E836C1D9E8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BEE5017F-0B13-F8F5-D47E-1CBA9D4822C5" name="T_ENGENHEIRO PK">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2021-05-24 18:08:56 UTC</createdTime>
+<ownerDesignName>exemploslide20</ownerDesignName>
+<engineerTo>
+<item key="11BA9E03-EC11-10C9-753A-C0E836C1D9E8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9B118313-CA4A-7946-FE7A-4FBB60045618</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

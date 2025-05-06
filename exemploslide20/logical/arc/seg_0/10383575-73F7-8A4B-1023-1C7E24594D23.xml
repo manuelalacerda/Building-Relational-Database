@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="10383575-73F7-8A4B-1023-1C7E24594D23" name="Arc_1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 11:34:28 UTC</createdTime>
+<ownerDesignName>exemploslide20</ownerDesignName>
+<engineerTo>
+<item key="11BA9E03-EC11-10C9-753A-C0E836C1D9E8" value="true"/>
+</engineerTo>
+<entity>534CFC3A-F3BF-E51F-D8E8-C4373F871692</entity>
+<relations>
+<relationID>38BC75B6-F976-E1A3-2B2D-33A12020C366</relationID>
+<relationID>E2FABE23-A510-2D02-8DAF-B5F85EF3F65F</relationID>
+<relationID>E4E813E8-562D-A94D-2B30-542A9F387D45</relationID>
+</relations>
+</Arc>

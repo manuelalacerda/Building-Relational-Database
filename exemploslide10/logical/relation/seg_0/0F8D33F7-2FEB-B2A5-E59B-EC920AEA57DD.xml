@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PESSOA_JURIDICA" directorySegmentName="seg_0" id="0F8D33F7-2FEB-B2A5-E59B-EC920AEA57DD">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 11:29:17 UTC</createdTime>
+<ownerDesignName>exemploslide10</ownerDesignName>
+<engineerTo>
+<item key="11BA9E03-EC11-10C9-753A-C0E836C1D9E8" value="true"/>
+</engineerTo>
+<sourcePk>4BF491AD-CC8B-9873-006D-E5D847A7F1AF</sourcePk>
+<arc>91EDF457-149E-0CDD-3006-97A1F7F393F1</arc>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>534CFC3A-F3BF-E51F-D8E8-C4373F871692</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>730D85CC-0FF6-100E-5AC6-3D0F3229EBFB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
